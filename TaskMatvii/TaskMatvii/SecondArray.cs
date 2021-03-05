@@ -99,6 +99,18 @@ namespace TaskMatvii
             }
             return array;
         }
+        public static int[,] TransposeMatrix(int[,] array)
+        {
+            int[,] tarray = new int[array.GetLength(1), array.GetLength(0)];
+            for (int i = 0; i < tarray.GetLength(1); i++)
+            {
+                for (int j = 0; j < tarray.GetLength(0); j++)
+                {
+                    tarray[j, i] = array[i, j];
+                }
+            }
+            return tarray;
+        }
         public static bool FindingNumberMaxElements(int[,] array, int i, int j)
         {
             int currenty = i > 0 ? -1 : 0;
