@@ -1,0 +1,13 @@
+C:\Users\Admin\source\repos\Task Matvii\TaskMatvii\TaskMatvii\bin\Debug\netcoreapp3.1\TaskMatvii.exe
+C:\Users\Admin\source\repos\Task Matvii\TaskMatvii\TaskMatvii\bin\Debug\netcoreapp3.1\TaskMatvii.deps.json
+C:\Users\Admin\source\repos\Task Matvii\TaskMatvii\TaskMatvii\bin\Debug\netcoreapp3.1\TaskMatvii.runtimeconfig.json
+C:\Users\Admin\source\repos\Task Matvii\TaskMatvii\TaskMatvii\bin\Debug\netcoreapp3.1\TaskMatvii.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\Task Matvii\TaskMatvii\TaskMatvii\bin\Debug\netcoreapp3.1\TaskMatvii.dll
+C:\Users\Admin\source\repos\Task Matvii\TaskMatvii\TaskMatvii\bin\Debug\netcoreapp3.1\TaskMatvii.pdb
+C:\Users\Admin\source\repos\Task Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcoreapp3.1\TaskMatvii.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Task Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcoreapp3.1\TaskMatvii.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Task Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcoreapp3.1\TaskMatvii.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Task Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcoreapp3.1\TaskMatvii.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Task Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcoreapp3.1\TaskMatvii.dll
+C:\Users\Admin\source\repos\Task Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcoreapp3.1\TaskMatvii.pdb
+C:\Users\Admin\source\repos\Task Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcoreapp3.1\TaskMatvii.genruntimeconfig.cache
