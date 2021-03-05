@@ -6,7 +6,7 @@ namespace TaskMatvii
     {
         static void Main(string[] args)
         {
-           string a = Variables.MappinglineEquation(3, 6, 8, 9);
+           string a = Variables.MappinglineEquation(4, 6, 3, 1);
             Console.WriteLine(a);
         }
     }
