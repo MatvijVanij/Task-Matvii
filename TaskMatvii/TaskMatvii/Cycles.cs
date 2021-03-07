@@ -216,30 +216,29 @@ namespace TaskMatvii
 
             return array;
         }
-        public static string CheckDuplicateNumbers(int a, int b)
+        public static bool CheckDuplicateNumbers(int a, int b)
         {
-            string str;
-            int c;
-            int d;
-            while (a != 0)
+            bool ansewer = false;
+            int adigit;
+            int bdigit;
+            while (a != 0 && !ansewer)
             {
-                c = a % 10;
+                adigit = a % 10;
                 a /= 10;
 
                 while (b != 0)
                 {
-                    d = b % 10;
+                    bdigit = b % 10;
                     b /= 10;
-                    if (c == d)
+                    if (adigit == bdigit)
                     {
-                        str = "Yes";
-                        return str;
+                        ansewer = true;
+                        break;
                     }
                 }
             }
-            str = "No";
 
-            return str;
+            return ansewer;
         }
     }
 }
