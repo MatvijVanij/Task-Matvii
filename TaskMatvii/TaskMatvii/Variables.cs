@@ -34,7 +34,7 @@ namespace TaskMatvii
         {
             if (a == 0)
             {
-                throw new DivideByZeroException("a = 0 division by zero this is not an equation");
+                throw new Exception("a = 0 division by zero this is not an equation");
             }
             return (c - b) / a;
         }

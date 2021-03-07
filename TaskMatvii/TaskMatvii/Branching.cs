@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TaskMatvii
 {
-   public class Branching
+    public class Branching
     {
         public static int CalculationProvided(int a, int b)
         {
@@ -59,6 +59,49 @@ namespace TaskMatvii
             if (a > c) { temp = a; a = c; c = temp; }
             if (b > c) { temp = b; b = c; c = temp; }
             return new int[3] { a, b, c };
+        }
+        public static int[] SortingThreeElementsBrancing(int a, int b, int c)
+        {
+            int[] array = new int[3];
+            if (a > b && a > c)
+            {
+                if (b > c)
+                {
+                    array = new int[3] { c, b, a };
+                }
+                else
+                {
+                    array = new int[3] { b, c, a };
+                }
+            }
+            else
+            {
+                if (b > c)
+                {
+                    if (a > c)
+                    {
+                        array = new int[3] { c, a, b };
+                    }
+                    else
+                    {
+                        array = new int[3] { a, c, b };
+                    }
+
+                }
+                else
+                {
+                    if (a > b)
+                    {
+                        array = new int[3] { b, a, c };
+                    }
+                    else
+                    {
+                        array = new int[3] { a, b, c };
+                    }
+
+                }
+            }
+            return array;
         }
         public static double[] EquationSolution(double a, double b, double c)
         {
