@@ -6,8 +6,12 @@ namespace TaskMatvii
     {
         static void Main(string[] args)
         {
-           string a = Variables.MappinglineEquation(4, 6, 3, 1);
-            Console.WriteLine(a);
+           int[] a = Cycles.PrintNumbersSumEvenDigitsSumOddOnes(50);
+            for (int i = 0; i < a.Length; i++)
+            {
+                Console.WriteLine($" {a[i]} ");
+            }
+
         }
     }
 }

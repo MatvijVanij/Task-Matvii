@@ -159,7 +159,7 @@ namespace TaskMatvii
             }
             return revers;
         }
-        public static int PrintNumbersSumEvenDigitsSumOddOnes(int a)
+        public static int[] PrintNumbersSumEvenDigitsSumOddOnes(int a)
         {
             int value;
             int b;
@@ -187,7 +187,34 @@ namespace TaskMatvii
                     ++count;
                 }
             }
-            return count;
+            int[] array = new int[count];
+            int j = 0;
+            for (int i = 1; i < a; i++)
+            {
+                value = i;
+                int sum1 = 0;
+                int sum2 = 0;
+                while (value != 0)
+                {
+                    b = value % 10;
+                    value /= 10;
+                    if (b % 2 == 1)
+                    {
+                        sum1 += b;
+                    }
+                    else
+                    {
+                        sum2 += b;
+                    }
+                }
+                if (sum1 < sum2)
+                {
+                    array[j] = i;
+                    j++;
+                }
+            }
+
+            return array;
         }
         public static string CheckDuplicateNumbers(int a, int b)
         {
