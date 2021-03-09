@@ -158,24 +158,37 @@ namespace TaskMatvii
             }
             return true;
         }
-        public static int FindingNumberMaxElementsSecond (int[,] array)
+        public static int FindingNumberMaxElementsSecond(int[,] array)
         {
-            int count=0;
+            int Max;
+            int count = 0;
             for (int i = 0; i < array.GetLength(0); i++)
             {
                 for (int j = 0; j < array.GetLength(1); j++)
                 {
-                    for (int k = -1; k <= 1; k++)
-                        for (int l = -1; l <= 1; l++)
+                    bool isCorrect = true;
+                    for (int di = -1; di <= 1; di++)
+                    {
+                        for (int dj = -1; dj <= 1; dj++)
                         {
-                            if (i + k >= 0 && i + k == array.GetLength(0) && j + l >= 0 && j + l == array.GetLength(0))
+                            if ((i + di) >= 0 && (i + di) < array.GetLength(0) && (j + dj) >= 0 && (j + dj) < array.GetLength(1) && !(di == 0 && dj == 0))
                             {
-                                if (array[i, j] > array[i + k, l + j] && !(k == 0 && l== 0))
+                                if (array[i, j] > array[i + di, j + dj] && !(di == 0 && dj == 0))
                                 {
-                                    count++;
+
+                                }
+                                else
+                                {
+                                    isCorrect = false;
+                                    break;
                                 }
                             }
                         }
+                    }
+                    if (isCorrect)
+                    {
+                        ++count;
+                    }
                 }
             }
             return count;
