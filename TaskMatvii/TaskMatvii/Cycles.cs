@@ -215,7 +215,7 @@ namespace TaskMatvii
             }
 
             return array;
-        }
+        } 
         public static bool CheckDuplicateNumbers(int a, int b)
         {
             bool ansewer = false;

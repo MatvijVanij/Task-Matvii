@@ -11,3 +11,16 @@ C:\Users\Admin\source\repos\Task Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcorea
 C:\Users\Admin\source\repos\Task Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcoreapp3.1\TaskMatvii.dll
 C:\Users\Admin\source\repos\Task Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcoreapp3.1\TaskMatvii.pdb
 C:\Users\Admin\source\repos\Task Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcoreapp3.1\TaskMatvii.genruntimeconfig.cache
+C:\Users\matvi\Source\Repos\MatvijVanij\Task-Matvii\TaskMatvii\TaskMatvii\bin\Debug\netcoreapp3.1\TaskMatvii.exe
+C:\Users\matvi\Source\Repos\MatvijVanij\Task-Matvii\TaskMatvii\TaskMatvii\bin\Debug\netcoreapp3.1\TaskMatvii.deps.json
+C:\Users\matvi\Source\Repos\MatvijVanij\Task-Matvii\TaskMatvii\TaskMatvii\bin\Debug\netcoreapp3.1\TaskMatvii.runtimeconfig.json
+C:\Users\matvi\Source\Repos\MatvijVanij\Task-Matvii\TaskMatvii\TaskMatvii\bin\Debug\netcoreapp3.1\TaskMatvii.runtimeconfig.dev.json
+C:\Users\matvi\Source\Repos\MatvijVanij\Task-Matvii\TaskMatvii\TaskMatvii\bin\Debug\netcoreapp3.1\TaskMatvii.dll
+C:\Users\matvi\Source\Repos\MatvijVanij\Task-Matvii\TaskMatvii\TaskMatvii\bin\Debug\netcoreapp3.1\TaskMatvii.pdb
+C:\Users\matvi\Source\Repos\MatvijVanij\Task-Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcoreapp3.1\TaskMatvii.csprojAssemblyReference.cache
+C:\Users\matvi\Source\Repos\MatvijVanij\Task-Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcoreapp3.1\TaskMatvii.AssemblyInfoInputs.cache
+C:\Users\matvi\Source\Repos\MatvijVanij\Task-Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcoreapp3.1\TaskMatvii.AssemblyInfo.cs
+C:\Users\matvi\Source\Repos\MatvijVanij\Task-Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcoreapp3.1\TaskMatvii.csproj.CoreCompileInputs.cache
+C:\Users\matvi\Source\Repos\MatvijVanij\Task-Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcoreapp3.1\TaskMatvii.dll
+C:\Users\matvi\Source\Repos\MatvijVanij\Task-Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcoreapp3.1\TaskMatvii.pdb
+C:\Users\matvi\Source\Repos\MatvijVanij\Task-Matvii\TaskMatvii\TaskMatvii\obj\Debug\netcoreapp3.1\TaskMatvii.genruntimeconfig.cache

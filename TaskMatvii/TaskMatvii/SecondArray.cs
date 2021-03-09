@@ -158,5 +158,27 @@ namespace TaskMatvii
             }
             return true;
         }
+        public static int FindingNumberMaxElementsSecond (int[,] array)
+        {
+            int count=0;
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                for (int j = 0; j < array.GetLength(1); j++)
+                {
+                    for (int k = -1; k <= 1; k++)
+                        for (int l = -1; l <= 1; l++)
+                        {
+                            if (i + k >= 0 && i + k == array.GetLength(0) && j + l >= 0 && j + l == array.GetLength(0))
+                            {
+                                if (array[i, j] > array[i + k, l + j] && !(k == 0 && l== 0))
+                                {
+                                    count++;
+                                }
+                            }
+                        }
+                }
+            }
+            return count;
+        }
     }
 }
