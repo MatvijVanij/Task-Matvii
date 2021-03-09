@@ -8,25 +8,20 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\matvi\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matvi\\Source\\Repos\\MatvijVanij\\Task-Matvii\\TaskMatvii\\TaskMatvii\\TaskMatvii.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Task Matvii\\TaskMatvii\\TaskMatvii\\TaskMatvii.csproj",
       "projectName": "TaskMatvii",
-      "projectPath": "C:\\Users\\matvi\\Source\\Repos\\MatvijVanij\\Task-Matvii\\TaskMatvii\\TaskMatvii\\TaskMatvii.csproj",
-      "packagesPath": "C:\\Users\\matvi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matvi\\Source\\Repos\\MatvijVanij\\Task-Matvii\\TaskMatvii\\TaskMatvii\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\Task Matvii\\TaskMatvii\\TaskMatvii\\TaskMatvii.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\Task Matvii\\TaskMatvii\\TaskMatvii\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\matvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

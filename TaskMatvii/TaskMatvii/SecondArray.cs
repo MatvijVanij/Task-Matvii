@@ -111,7 +111,7 @@ namespace TaskMatvii
             }
             return tarray;
         }
-        public static int FindingNumberMaxElementsWorking(int[,] array)
+        public static int FindingNumberMaxElementsWorkingAroudZero(int[,] array)
         {
             int[,] tarray = new int[array.GetLength(0) + 2, array.GetLength(1) + 2];
             for (int i = 0; i < array.GetLength(0); i++)
@@ -160,36 +160,37 @@ namespace TaskMatvii
         }
         public static int FindingNumberMaxElementsSecond(int[,] array)
         {
-            int Max;
             int count = 0;
             for (int i = 0; i < array.GetLength(0); i++)
             {
                 for (int j = 0; j < array.GetLength(1); j++)
                 {
-                    bool isCorrect = true;
+                    bool elementmax = true;
                     for (int di = -1; di <= 1; di++)
                     {
                         for (int dj = -1; dj <= 1; dj++)
                         {
                             if ((i + di) >= 0 && (i + di) < array.GetLength(0) && (j + dj) >= 0 && (j + dj) < array.GetLength(1) && !(di == 0 && dj == 0))
                             {
-                                if (array[i, j] > array[i + di, j + dj] && !(di == 0 && dj == 0))
+                                if (array[i, j] > array[i + di, j + dj])
                                 {
 
                                 }
                                 else
                                 {
-                                    isCorrect = false;
+                                    elementmax = false;
                                     break;
                                 }
                             }
                         }
                     }
-                    if (isCorrect)
+                    if (elementmax)
                     {
-                        ++count;
-                    }
+                        count++;
+                   }
+
                 }
+
             }
             return count;
         }
