@@ -30,6 +30,7 @@ namespace TaskMatvii
             double remainder = a % b;
             return new double[2] { division, remainder };
         }
+
         public static double SolvingLinearEquation(double a, double b, double c)
         {
             if (a == 0)
@@ -38,7 +39,7 @@ namespace TaskMatvii
             }
             return (c - b) / a;
         }
-        public static string MappinglineEquation(double x1, double y1, double x2, double y2)
+        public static double[] MappinglineEquation(double x1, double y1, double x2, double y2)
         {
             if (x1 == x2)
             {
@@ -46,9 +47,7 @@ namespace TaskMatvii
             }
             double a = (y2 - y1) / (x2 - x1);
             double b = y1 - a * x1;
-            Convert.ToString(a);
-            Convert.ToString(b);
-            return "Y=" + a + "*X + " + b;
+            return new double[2] { a, b };
         }
     }
 }
