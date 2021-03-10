@@ -97,21 +97,27 @@ namespace TaskMatvii
         }
         public static double[] EquationSolution(double a, double b, double c)
         {
-            double D = b * b - 4 * a * c;
-            double solution1 = 0;
-            double solution2 = 0;
-            if (D < 0) { throw new Exception("Descriminant  == 0"); }
-            if (a == 0) { throw new Exception(" a == 0"); }
-            else if (D == 0)
+            double D =(( b * b) - (4 * a * c));
+            double solution1;
+            double solution2;
+
+            if (D > 0)
             {
-                solution1 = -b / 2 * a;
-                solution2 = solution1;
+                solution1 = (-b + Math.Sqrt(D)) / (2 * a);
+                solution2 = (-b - Math.Sqrt(D)) / (2 * a);
+            }
+            else
+            if (D == 0)
+            {
+                solution1 = -b / (2 * a);
+                solution2 = -b / (2 * a);
             }
             else
             {
-                solution1 = (-b + Math.Sqrt(D)) / 2 * a;
-                solution2 = (-b - Math.Sqrt(D)) / 2 * a;
+                solution1 = 0;
+                solution2 = 0;
             }
+            if (a == 0) { throw new Exception(" a == 0"); }
             return new double[2] { solution1, solution2 };
         }
         public static string NumberStamp(int a)
