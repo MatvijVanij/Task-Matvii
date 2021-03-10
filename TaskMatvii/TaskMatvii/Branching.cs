@@ -52,14 +52,6 @@ namespace TaskMatvii
             }
             return c;
         }
-        public static int[] SortingThreeElements(int a, int b, int c)
-        {
-            int temp = 0;
-            if (a > b) { temp = a; a = b; b = temp; }
-            if (a > c) { temp = a; a = c; c = temp; }
-            if (b > c) { temp = b; b = c; c = temp; }
-            return new int[3] { a, b, c };
-        }
         public static int[] SortingThreeElementsBrancing(int a, int b, int c)
         {
             int[] array = new int[3];

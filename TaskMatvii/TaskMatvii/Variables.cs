@@ -30,7 +30,6 @@ namespace TaskMatvii
             double remainder = a % b;
             return new double[2] { division, remainder };
         }
-
         public static double SolvingLinearEquation(double a, double b, double c)
         {
             if (a == 0)
