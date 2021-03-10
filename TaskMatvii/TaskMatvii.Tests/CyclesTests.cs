@@ -40,5 +40,23 @@ namespace TaskMatvii.Tests
             int actual = Cycles.PrintGreatestВivisor(a);
             Assert.AreEqual(expected, actual);
         }
+        [TestCase(0, 22, 42)]
+        [TestCase(7, -7, 0)]
+        [TestCase(-8, 15, 14)]
+        [TestCase(1, 5, 0)]
+        public void DisplaySumOfNumbers_WhenValueForRangeABDividedBySeven_ShouldSumAllVariebls(int a, int b, int expected)
+        {
+            int actual = Cycles.DisplaySumOfNumbers(a, b);
+            Assert.AreEqual(expected, actual);
+        }
+        [TestCase(1, 1)]
+        [TestCase(10, 55)]
+        [TestCase(18, 2584)]
+        [TestCase(22, 17711)]
+        public void PrintNumberOfFibonacci_WhenAIselementLineFibonacci_ShouldValueIsElements(int a, int expected)
+        {
+            int actual = Cycles.PrintNumberOfFibonacci(a);
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
