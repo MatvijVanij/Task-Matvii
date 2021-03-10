@@ -12,7 +12,7 @@ namespace TaskMatvii
             {
                 throw new DivideByZeroException("a no == b  division by zero");
             }
-            return 5 * a + b * b / (b - a);
+            return (5 * a + b * b) / (b - a);
         }
         public static void ReplacementOfValues(ref int a, ref int b)
         {
@@ -20,17 +20,17 @@ namespace TaskMatvii
             a = b;
             b = c;
         }
-        public static double[] DivisionAndRemainderDivision(double a, double b)
+        public static int[] DivisionAndRemainderDivision(int a, int b)
         {
             if (b == 0)
             {
                 throw new DivideByZeroException(" b == 0  division by zero");
             }
-            double division = a / b;
-            double remainder = a % b;
-            return new double[2] { division, remainder };
+            int division = a / b;
+            int remainder = a % b;
+            return new int[2] { division, remainder };
         }
-        public static double SolvingLinearEquation(double a, double b, double c)
+        public static int SolvingLinearEquation(int a, int b, int c)
         {
             if (a == 0)
             {
@@ -38,15 +38,15 @@ namespace TaskMatvii
             }
             return (c - b) / a;
         }
-        public static double[] MappinglineEquation(double x1, double y1, double x2, double y2)
+        public static int[] MappinglineEquation(int x1, int y1, int x2, int y2)
         {
             if (x1 == x2)
             {
                 throw new DivideByZeroException("x1 no == x2 . Division by zero");
             }
-            double a = (y2 - y1) / (x2 - x1);
-            double b = y1 - a * x1;
-            return new double[2] { a, b };
+            int a = (y2 - y1) / (x2 - x1);
+            int b = y1 - a * x1;
+            return new int[2] { a, b };
         }
     }
 }
